@@ -5,7 +5,7 @@ FROM node:latest
 WORKDIR usr/src/app
 
 # copia el archivo package.json
-COPY package.json ./
+COPY package*.json ./
 
 # instala dependencias
 RUN npm install
